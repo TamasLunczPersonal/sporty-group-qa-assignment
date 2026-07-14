@@ -1,0 +1,8 @@
+message   : Bet placed successfully
+matchId   : ligue-1-psg-lille-2026-07-16
+selection : HOME
+stake     : 94.5
+odds      : 1.65
+payout    : 155.92
+balance   : 25.5
+currency  : USD

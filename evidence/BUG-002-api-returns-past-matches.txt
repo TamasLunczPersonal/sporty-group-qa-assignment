@@ -1,0 +1,1242 @@
+PS C:\WINDOWS\system32> Invoke-RestMethod -Method Get -Uri "https://qae-assignment-tau.vercel.app/api/matches" -Headers @{ "x-user-id" = "candidate-vhoRbYgrrm" } | ConvertTo-Json -Depth 5
+{
+    "value":  [
+                  {
+                      "id":  "premier-league-manutd-chelsea",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-02-27",
+                      "homeTeam":  "Manchester Utd",
+                      "awayTeam":  "Chelsea",
+                      "odds":  {
+                                   "home":  2.45,
+                                   "draw":  3.1,
+                                   "away":  2.8
+                               }
+                  },
+                  {
+                      "id":  "la-liga-real-barca",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-02-27",
+                      "homeTeam":  "Real Madrid",
+                      "awayTeam":  "Barcelona",
+                      "odds":  {
+                                   "home":  1.85,
+                                   "draw":  3.4,
+                                   "away":  3.2
+                               }
+                  },
+                  {
+                      "id":  "serie-a-juve-milan",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "Juventus",
+                      "awayTeam":  "AC Milan",
+                      "odds":  {
+                                   "home":  1.95,
+                                   "draw":  3.25,
+                                   "away":  4.1
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-bayern-dortmund",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "Bayern Munich",
+                      "awayTeam":  "Dortmund",
+                      "odds":  {
+                                   "home":  1.45,
+                                   "draw":  4.5,
+                                   "away":  6
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-psg-marseille",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "PSG",
+                      "awayTeam":  "Marseille",
+                      "odds":  {
+                                   "home":  1.35,
+                                   "draw":  5,
+                                   "away":  7.5
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-ajax-psv",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-03-02",
+                      "homeTeam":  "Ajax",
+                      "awayTeam":  "PSV",
+                      "odds":  {
+                                   "home":  2.2,
+                                   "draw":  3.4,
+                                   "away":  2.9
+                               }
+                  },
+                  {
+                      "id":  "premier-league-arsenal-liverpool",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-03-02",
+                      "homeTeam":  "Arsenal",
+                      "awayTeam":  "Liverpool",
+                      "odds":  {
+                                   "home":  2.3,
+                                   "draw":  3.35,
+                                   "away":  2.9
+                               }
+                  },
+                  {
+                      "id":  "premier-league-tottenham-newcastle",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-03-03",
+                      "homeTeam":  "Tottenham",
+                      "awayTeam":  "Newcastle",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.4,
+                                   "away":  3.6
+                               }
+                  },
+                  {
+                      "id":  "premier-league-city-brighton",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-03-03",
+                      "homeTeam":  "Man City",
+                      "awayTeam":  "Brighton",
+                      "odds":  {
+                                   "home":  1.55,
+                                   "draw":  4.2,
+                                   "away":  5.6
+                               }
+                  },
+                  {
+                      "id":  "la-liga-atleti-valencia",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-03-04",
+                      "homeTeam":  "Atletico Madrid",
+                      "awayTeam":  "Valencia",
+                      "odds":  {
+                                   "home":  1.7,
+                                   "draw":  3.6,
+                                   "away":  5
+                               }
+                  },
+                  {
+                      "id":  "la-liga-sevilla-betis",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-03-04",
+                      "homeTeam":  "Sevilla",
+                      "awayTeam":  "Real Betis",
+                      "odds":  {
+                                   "home":  2.1,
+                                   "draw":  3.25,
+                                   "away":  3.6
+                               }
+                  },
+                  {
+                      "id":  "serie-a-inter-roma",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-03-05",
+                      "homeTeam":  "Inter",
+                      "awayTeam":  "Roma",
+                      "odds":  {
+                                   "home":  1.9,
+                                   "draw":  3.3,
+                                   "away":  4.2
+                               }
+                  },
+                  {
+                      "id":  "serie-a-napoli-lazio",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-03-05",
+                      "homeTeam":  "Napoli",
+                      "awayTeam":  "Lazio",
+                      "odds":  {
+                                   "home":  2,
+                                   "draw":  3.35,
+                                   "away":  3.9
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-leverkusen-leipzig",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-03-06",
+                      "homeTeam":  "Leverkusen",
+                      "awayTeam":  "RB Leipzig",
+                      "odds":  {
+                                   "home":  2.25,
+                                   "draw":  3.45,
+                                   "away":  2.95
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-frankfurt-stuttgart",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-03-06",
+                      "homeTeam":  "Frankfurt",
+                      "awayTeam":  "Stuttgart",
+                      "odds":  {
+                                   "home":  2.4,
+                                   "draw":  3.3,
+                                   "away":  2.9
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-lyon-lille",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-02-28",
+                      "homeTeam":  "Lyon",
+                      "awayTeam":  "Lille",
+                      "odds":  {
+                                   "home":  2.35,
+                                   "draw":  3.25,
+                                   "away":  3.05
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-monaco-rennes",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-02-28",
+                      "homeTeam":  "Monaco",
+                      "awayTeam":  "Rennes",
+                      "odds":  {
+                                   "home":  2,
+                                   "draw":  3.5,
+                                   "away":  3.8
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-feyenoord-az",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-02-28",
+                      "homeTeam":  "Feyenoord",
+                      "awayTeam":  "AZ Alkmaar",
+                      "odds":  {
+                                   "home":  1.95,
+                                   "draw":  3.4,
+                                   "away":  3.9
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-utrecht-twente",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "Utrecht",
+                      "awayTeam":  "Twente",
+                      "odds":  {
+                                   "home":  2.6,
+                                   "draw":  3.2,
+                                   "away":  2.6
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-benfica-porto",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "Benfica",
+                      "awayTeam":  "Porto",
+                      "odds":  {
+                                   "home":  2.15,
+                                   "draw":  3.1,
+                                   "away":  3.4
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-sporting-braga",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-03-02",
+                      "homeTeam":  "Sporting CP",
+                      "awayTeam":  "Braga",
+                      "odds":  {
+                                   "home":  1.85,
+                                   "draw":  3.4,
+                                   "away":  4.3
+                               }
+                  },
+                  {
+                      "id":  "mls-lafc-galaxy",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-03-02",
+                      "homeTeam":  "LAFC",
+                      "awayTeam":  "LA Galaxy",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.5,
+                                   "away":  3.4
+                               }
+                  },
+                  {
+                      "id":  "mls-inter-miami-atlanta",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-03-03",
+                      "homeTeam":  "Inter Miami",
+                      "awayTeam":  "Atlanta United",
+                      "odds":  {
+                                   "home":  2.2,
+                                   "draw":  3.4,
+                                   "away":  3.1
+                               }
+                  },
+                  {
+                      "id":  "scottish-celtic-rangers",
+                      "competition":  "Scottish Premiership",
+                      "kickoffDate":  "2026-03-04",
+                      "homeTeam":  "Celtic",
+                      "awayTeam":  "Rangers",
+                      "odds":  {
+                                   "home":  2,
+                                   "draw":  3.25,
+                                   "away":  3.7
+                               }
+                  },
+                  {
+                      "id":  "championship-leeds-southampton",
+                      "competition":  "Championship",
+                      "kickoffDate":  "2026-03-05",
+                      "homeTeam":  "Leeds",
+                      "awayTeam":  "Southampton",
+                      "odds":  {
+                                   "home":  2.3,
+                                   "draw":  3.2,
+                                   "away":  3.05
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-wolfsburg-bremen",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-02-28",
+                      "homeTeam":  "Wolfsburg",
+                      "awayTeam":  "Werder Bremen",
+                      "odds":  {
+                                   "home":  2.15,
+                                   "draw":  3.35,
+                                   "away":  3.25
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-nice-marseille",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-02-28",
+                      "homeTeam":  "Nice",
+                      "awayTeam":  "Marseille",
+                      "odds":  {
+                                   "home":  2.6,
+                                   "draw":  3.2,
+                                   "away":  2.75
+                               }
+                  },
+                  {
+                      "id":  "la-liga-bilbao-villarreal",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "Athletic Bilbao",
+                      "awayTeam":  "Villarreal",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.3,
+                                   "away":  3.7
+                               }
+                  },
+                  {
+                      "id":  "serie-a-fiorentina-atalanta",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "Fiorentina",
+                      "awayTeam":  "Atalanta",
+                      "odds":  {
+                                   "home":  2.45,
+                                   "draw":  3.3,
+                                   "away":  2.75
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-heerenveen-sparta",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-03-01",
+                      "homeTeam":  "Heerenveen",
+                      "awayTeam":  "Sparta Rotterdam",
+                      "odds":  {
+                                   "home":  2.4,
+                                   "draw":  3.3,
+                                   "away":  2.95
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-vitoria-porto",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-03-04",
+                      "homeTeam":  "Vitoria SC",
+                      "awayTeam":  "Porto",
+                      "odds":  {
+                                   "home":  3.9,
+                                   "draw":  3.4,
+                                   "away":  1.9
+                               }
+                  },
+                  {
+                      "id":  "mls-seattle-portland",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-03-05",
+                      "homeTeam":  "Seattle Sounders",
+                      "awayTeam":  "Portland Timbers",
+                      "odds":  {
+                                   "home":  2.1,
+                                   "draw":  3.3,
+                                   "away":  3.3
+                               }
+                  },
+                  {
+                      "id":  "championship-norwich-derby",
+                      "competition":  "Championship",
+                      "kickoffDate":  "2026-03-06",
+                      "homeTeam":  "Norwich",
+                      "awayTeam":  "Derby County",
+                      "odds":  {
+                                   "home":  2.25,
+                                   "draw":  3.25,
+                                   "away":  3.1
+                               }
+                  },
+                  {
+                      "id":  "premier-league-west-ham-everton-2026-04-03",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-04-03",
+                      "homeTeam":  "West Ham",
+                      "awayTeam":  "Everton",
+                      "odds":  {
+                                   "home":  2.35,
+                                   "draw":  3.25,
+                                   "away":  3.15
+                               }
+                  },
+                  {
+                      "id":  "la-liga-real-sociedad-celta-2026-04-05",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-04-05",
+                      "homeTeam":  "Real Sociedad",
+                      "awayTeam":  "Celta Vigo",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.2,
+                                   "away":  3.85
+                               }
+                  },
+                  {
+                      "id":  "serie-a-roma-lazio-2026-04-06",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-04-06",
+                      "homeTeam":  "Roma",
+                      "awayTeam":  "Lazio",
+                      "odds":  {
+                                   "home":  2.45,
+                                   "draw":  3.15,
+                                   "away":  2.95
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-leipzig-bayern-2026-04-10",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-04-10",
+                      "homeTeam":  "RB Leipzig",
+                      "awayTeam":  "Bayern Munich",
+                      "odds":  {
+                                   "home":  3.2,
+                                   "draw":  3.6,
+                                   "away":  2.05
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-psg-lyon-2026-04-12",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-04-12",
+                      "homeTeam":  "PSG",
+                      "awayTeam":  "Lyon",
+                      "odds":  {
+                                   "home":  1.55,
+                                   "draw":  4.25,
+                                   "away":  5.8
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-ajax-feyenoord-2026-04-16",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-04-16",
+                      "homeTeam":  "Ajax",
+                      "awayTeam":  "Feyenoord",
+                      "odds":  {
+                                   "home":  2.15,
+                                   "draw":  3.45,
+                                   "away":  3.15
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-porto-braga-2026-04-20",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-04-20",
+                      "homeTeam":  "Porto",
+                      "awayTeam":  "Braga",
+                      "odds":  {
+                                   "home":  1.75,
+                                   "draw":  3.5,
+                                   "away":  4.9
+                               }
+                  },
+                  {
+                      "id":  "mls-la-galaxy-seattle-2026-04-25",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-04-25",
+                      "homeTeam":  "LA Galaxy",
+                      "awayTeam":  "Seattle Sounders",
+                      "odds":  {
+                                   "home":  2.4,
+                                   "draw":  3.45,
+                                   "away":  2.75
+                               }
+                  },
+                  {
+                      "id":  "premier-league-aston-villa-leicester-2026-05-02",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-05-02",
+                      "homeTeam":  "Aston Villa",
+                      "awayTeam":  "Leicester",
+                      "odds":  {
+                                   "home":  2.1,
+                                   "draw":  3.3,
+                                   "away":  3.55
+                               }
+                  },
+                  {
+                      "id":  "la-liga-valencia-villarreal-2026-05-06",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-05-06",
+                      "homeTeam":  "Valencia",
+                      "awayTeam":  "Villarreal",
+                      "odds":  {
+                                   "home":  2.55,
+                                   "draw":  3.15,
+                                   "away":  2.85
+                               }
+                  },
+                  {
+                      "id":  "serie-a-inter-ac-milan-2026-05-09",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-05-09",
+                      "homeTeam":  "Inter",
+                      "awayTeam":  "AC Milan",
+                      "odds":  {
+                                   "home":  2.2,
+                                   "draw":  3.25,
+                                   "away":  3.25
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-dortmund-leverkusen-2026-05-13",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-05-13",
+                      "homeTeam":  "Dortmund",
+                      "awayTeam":  "Leverkusen",
+                      "odds":  {
+                                   "home":  2.35,
+                                   "draw":  3.6,
+                                   "away":  2.75
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-marseille-monaco-2026-05-17",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-05-17",
+                      "homeTeam":  "Marseille",
+                      "awayTeam":  "Monaco",
+                      "odds":  {
+                                   "home":  2.6,
+                                   "draw":  3.35,
+                                   "away":  2.7
+                               }
+                  },
+                  {
+                      "id":  "championship-sunderland-watford-2026-05-23",
+                      "competition":  "Championship",
+                      "kickoffDate":  "2026-05-23",
+                      "homeTeam":  "Sunderland",
+                      "awayTeam":  "Watford",
+                      "odds":  {
+                                   "home":  2.3,
+                                   "draw":  3.2,
+                                   "away":  3.25
+                               }
+                  },
+                  {
+                      "id":  "premier-league-arsenal-chelsea-2026-06-01",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-06-01",
+                      "homeTeam":  "Arsenal",
+                      "awayTeam":  "Chelsea",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.4,
+                                   "away":  3.55
+                               }
+                  },
+                  {
+                      "id":  "la-liga-barcelona-sevilla-2026-06-03",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-06-03",
+                      "homeTeam":  "Barcelona",
+                      "awayTeam":  "Sevilla",
+                      "odds":  {
+                                   "home":  1.6,
+                                   "draw":  4.1,
+                                   "away":  5.9
+                               }
+                  },
+                  {
+                      "id":  "serie-a-juventus-inter-2026-06-05",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-06-05",
+                      "homeTeam":  "Juventus",
+                      "awayTeam":  "Inter",
+                      "odds":  {
+                                   "home":  2.4,
+                                   "draw":  3.1,
+                                   "away":  3.05
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-bayern-leipzig-2026-06-07",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-06-07",
+                      "homeTeam":  "Bayern Munich",
+                      "awayTeam":  "RB Leipzig",
+                      "odds":  {
+                                   "home":  1.7,
+                                   "draw":  3.9,
+                                   "away":  4.7
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-lille-nice-2026-06-10",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-06-10",
+                      "homeTeam":  "Lille",
+                      "awayTeam":  "Nice",
+                      "odds":  {
+                                   "home":  2.25,
+                                   "draw":  3.15,
+                                   "away":  3.35
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-psv-ajax-2026-06-12",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-06-12",
+                      "homeTeam":  "PSV",
+                      "awayTeam":  "Ajax",
+                      "odds":  {
+                                   "home":  2.2,
+                                   "draw":  3.55,
+                                   "away":  2.95
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-benfica-sporting-2026-06-15",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-06-15",
+                      "homeTeam":  "Benfica",
+                      "awayTeam":  "Sporting CP",
+                      "odds":  {
+                                   "home":  2.1,
+                                   "draw":  3.25,
+                                   "away":  3.35
+                               }
+                  },
+                  {
+                      "id":  "mls-inter-miami-lafc-2026-06-20",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-06-20",
+                      "homeTeam":  "Inter Miami",
+                      "awayTeam":  "LAFC",
+                      "odds":  {
+                                   "home":  2.65,
+                                   "draw":  3.45,
+                                   "away":  2.45
+                               }
+                  },
+                  {
+                      "id":  "scottish-premiership-celtic-hearts-2026-06-26",
+                      "competition":  "Scottish Premiership",
+                      "kickoffDate":  "2026-06-26",
+                      "homeTeam":  "Celtic",
+                      "awayTeam":  "Hearts",
+                      "odds":  {
+                                   "home":  1.5,
+                                   "draw":  4.4,
+                                   "away":  6.6
+                               }
+                  },
+                  {
+                      "id":  "premier-league-liverpool-man-city-2026-07-02",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-07-02",
+                      "homeTeam":  "Liverpool",
+                      "awayTeam":  "Man City",
+                      "odds":  {
+                                   "home":  2.65,
+                                   "draw":  3.35,
+                                   "away":  2.55
+                               }
+                  },
+                  {
+                      "id":  "la-liga-real-madrid-atletico-madrid-2026-07-04",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-07-04",
+                      "homeTeam":  "Real Madrid",
+                      "awayTeam":  "Atletico Madrid",
+                      "odds":  {
+                                   "home":  1.85,
+                                   "draw":  3.55,
+                                   "away":  4.15
+                               }
+                  },
+                  {
+                      "id":  "serie-a-napoli-roma-2026-07-08",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-07-08",
+                      "homeTeam":  "Napoli",
+                      "awayTeam":  "Roma",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.35,
+                                   "away":  3.75
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-stuttgart-frankfurt-2026-07-12",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-07-12",
+                      "homeTeam":  "Stuttgart",
+                      "awayTeam":  "Frankfurt",
+                      "odds":  {
+                                   "home":  2.45,
+                                   "draw":  3.3,
+                                   "away":  2.85
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-psg-lille-2026-07-16",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-07-16",
+                      "homeTeam":  "PSG",
+                      "awayTeam":  "Lille",
+                      "odds":  {
+                                   "home":  1.65,
+                                   "draw":  3.95,
+                                   "away":  5.1
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-az-alkmaar-ajax-2026-07-21",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-07-21",
+                      "homeTeam":  "AZ Alkmaar",
+                      "awayTeam":  "Ajax",
+                      "odds":  {
+                                   "home":  3.05,
+                                   "draw":  3.55,
+                                   "away":  2.25
+                               }
+                  },
+                  {
+                      "id":  "mls-seattle-lafc-2026-07-27",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-07-27",
+                      "homeTeam":  "Seattle Sounders",
+                      "awayTeam":  "LAFC",
+                      "odds":  {
+                                   "home":  2.55,
+                                   "draw":  3.35,
+                                   "away":  2.55
+                               }
+                  },
+                  {
+                      "id":  "premier-league-manutd-arsenal-2026-08-01",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-08-01",
+                      "homeTeam":  "Manchester Utd",
+                      "awayTeam":  "Arsenal",
+                      "odds":  {
+                                   "home":  2.55,
+                                   "draw":  3.25,
+                                   "away":  2.75
+                               }
+                  },
+                  {
+                      "id":  "premier-league-chelsea-tottenham-2026-08-03",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-08-03",
+                      "homeTeam":  "Chelsea",
+                      "awayTeam":  "Tottenham",
+                      "odds":  {
+                                   "home":  2.15,
+                                   "draw":  3.45,
+                                   "away":  3.3
+                               }
+                  },
+                  {
+                      "id":  "la-liga-barcelona-real-madrid-2026-08-05",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-08-05",
+                      "homeTeam":  "Barcelona",
+                      "awayTeam":  "Real Madrid",
+                      "odds":  {
+                                   "home":  2.35,
+                                   "draw":  3.55,
+                                   "away":  2.65
+                               }
+                  },
+                  {
+                      "id":  "la-liga-villarreal-betis-2026-08-08",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-08-08",
+                      "homeTeam":  "Villarreal",
+                      "awayTeam":  "Real Betis",
+                      "odds":  {
+                                   "home":  2.15,
+                                   "draw":  3.25,
+                                   "away":  3.55
+                               }
+                  },
+                  {
+                      "id":  "serie-a-ac-milan-napoli-2026-08-11",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-08-11",
+                      "homeTeam":  "AC Milan",
+                      "awayTeam":  "Napoli",
+                      "odds":  {
+                                   "home":  2.25,
+                                   "draw":  3.25,
+                                   "away":  3.2
+                               }
+                  },
+                  {
+                      "id":  "serie-a-lazio-juventus-2026-08-14",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-08-14",
+                      "homeTeam":  "Lazio",
+                      "awayTeam":  "Juventus",
+                      "odds":  {
+                                   "home":  3.25,
+                                   "draw":  3.15,
+                                   "away":  2.25
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-bayern-dortmund-2026-08-17",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-08-17",
+                      "homeTeam":  "Bayern Munich",
+                      "awayTeam":  "Dortmund",
+                      "odds":  {
+                                   "home":  1.6,
+                                   "draw":  4.25,
+                                   "away":  5.4
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-lyon-marseille-2026-08-20",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-08-20",
+                      "homeTeam":  "Lyon",
+                      "awayTeam":  "Marseille",
+                      "odds":  {
+                                   "home":  2.5,
+                                   "draw":  3.25,
+                                   "away":  2.85
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-porto-benfica-2026-08-24",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-08-24",
+                      "homeTeam":  "Porto",
+                      "awayTeam":  "Benfica",
+                      "odds":  {
+                                   "home":  2.3,
+                                   "draw":  3.15,
+                                   "away":  3
+                               }
+                  },
+                  {
+                      "id":  "mls-la-galaxy-portland-2026-08-29",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-08-29",
+                      "homeTeam":  "LA Galaxy",
+                      "awayTeam":  "Portland Timbers",
+                      "odds":  {
+                                   "home":  2.2,
+                                   "draw":  3.4,
+                                   "away":  3.05
+                               }
+                  },
+                  {
+                      "id":  "premier-league-newcastle-brighton-2026-09-02",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-09-02",
+                      "homeTeam":  "Newcastle",
+                      "awayTeam":  "Brighton",
+                      "odds":  {
+                                   "home":  2,
+                                   "draw":  3.45,
+                                   "away":  3.9
+                               }
+                  },
+                  {
+                      "id":  "la-liga-sevilla-valencia-2026-09-06",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-09-06",
+                      "homeTeam":  "Sevilla",
+                      "awayTeam":  "Valencia",
+                      "odds":  {
+                                   "home":  2.35,
+                                   "draw":  3.15,
+                                   "away":  3.2
+                               }
+                  },
+                  {
+                      "id":  "serie-a-atalanta-fiorentina-2026-09-10",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-09-10",
+                      "homeTeam":  "Atalanta",
+                      "awayTeam":  "Fiorentina",
+                      "odds":  {
+                                   "home":  2.25,
+                                   "draw":  3.35,
+                                   "away":  3.05
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-leverkusen-bremen-2026-09-14",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-09-14",
+                      "homeTeam":  "Leverkusen",
+                      "awayTeam":  "Werder Bremen",
+                      "odds":  {
+                                   "home":  1.85,
+                                   "draw":  3.55,
+                                   "away":  4.4
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-nice-psg-2026-09-19",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-09-19",
+                      "homeTeam":  "Nice",
+                      "awayTeam":  "PSG",
+                      "odds":  {
+                                   "home":  4.8,
+                                   "draw":  3.9,
+                                   "away":  1.7
+                               }
+                  },
+                  {
+                      "id":  "championship-leeds-norwich-2026-09-25",
+                      "competition":  "Championship",
+                      "kickoffDate":  "2026-09-25",
+                      "homeTeam":  "Leeds",
+                      "awayTeam":  "Norwich",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.25,
+                                   "away":  3.85
+                               }
+                  },
+                  {
+                      "id":  "premier-league-tottenham-liverpool-2026-10-01",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-10-01",
+                      "homeTeam":  "Tottenham",
+                      "awayTeam":  "Liverpool",
+                      "odds":  {
+                                   "home":  2.75,
+                                   "draw":  3.35,
+                                   "away":  2.4
+                               }
+                  },
+                  {
+                      "id":  "la-liga-atletico-madrid-barcelona-2026-10-03",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-10-03",
+                      "homeTeam":  "Atletico Madrid",
+                      "awayTeam":  "Barcelona",
+                      "odds":  {
+                                   "home":  3.05,
+                                   "draw":  3.25,
+                                   "away":  2.3
+                               }
+                  },
+                  {
+                      "id":  "serie-a-inter-napoli-2026-10-06",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-10-06",
+                      "homeTeam":  "Inter",
+                      "awayTeam":  "Napoli",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.35,
+                                   "away":  3.65
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-dortmund-frankfurt-2026-10-10",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-10-10",
+                      "homeTeam":  "Dortmund",
+                      "awayTeam":  "Frankfurt",
+                      "odds":  {
+                                   "home":  1.95,
+                                   "draw":  3.7,
+                                   "away":  4
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-monaco-lyon-2026-10-14",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-10-14",
+                      "homeTeam":  "Monaco",
+                      "awayTeam":  "Lyon",
+                      "odds":  {
+                                   "home":  2.15,
+                                   "draw":  3.35,
+                                   "away":  3.35
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-feyenoord-psv-2026-10-18",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-10-18",
+                      "homeTeam":  "Feyenoord",
+                      "awayTeam":  "PSV",
+                      "odds":  {
+                                   "home":  2.55,
+                                   "draw":  3.5,
+                                   "away":  2.55
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-braga-sporting-2026-10-22",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-10-22",
+                      "homeTeam":  "Braga",
+                      "awayTeam":  "Sporting CP",
+                      "odds":  {
+                                   "home":  3.25,
+                                   "draw":  3.25,
+                                   "away":  2.25
+                               }
+                  },
+                  {
+                      "id":  "mls-atlanta-seattle-2026-10-28",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-10-28",
+                      "homeTeam":  "Atlanta United",
+                      "awayTeam":  "Seattle Sounders",
+                      "odds":  {
+                                   "home":  2.65,
+                                   "draw":  3.4,
+                                   "away":  2.45
+                               }
+                  },
+                  {
+                      "id":  "premier-league-arsenal-man-city-2026-11-02",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-11-02",
+                      "homeTeam":  "Arsenal",
+                      "awayTeam":  "Man City",
+                      "odds":  {
+                                   "home":  2.85,
+                                   "draw":  3.35,
+                                   "away":  2.35
+                               }
+                  },
+                  {
+                      "id":  "la-liga-real-madrid-sevilla-2026-11-05",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-11-05",
+                      "homeTeam":  "Real Madrid",
+                      "awayTeam":  "Sevilla",
+                      "odds":  {
+                                   "home":  1.55,
+                                   "draw":  4.25,
+                                   "away":  6
+                               }
+                  },
+                  {
+                      "id":  "serie-a-juventus-roma-2026-11-09",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-11-09",
+                      "homeTeam":  "Juventus",
+                      "awayTeam":  "Roma",
+                      "odds":  {
+                                   "home":  1.9,
+                                   "draw":  3.35,
+                                   "away":  4.4
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-bayern-leverkusen-2026-11-13",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-11-13",
+                      "homeTeam":  "Bayern Munich",
+                      "awayTeam":  "Leverkusen",
+                      "odds":  {
+                                   "home":  1.75,
+                                   "draw":  3.9,
+                                   "away":  4.8
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-marseille-psg-2026-11-17",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-11-17",
+                      "homeTeam":  "Marseille",
+                      "awayTeam":  "PSG",
+                      "odds":  {
+                                   "home":  4.1,
+                                   "draw":  3.7,
+                                   "away":  1.85
+                               }
+                  },
+                  {
+                      "id":  "eredivisie-ajax-az-2026-11-21",
+                      "competition":  "Eredivisie",
+                      "kickoffDate":  "2026-11-21",
+                      "homeTeam":  "Ajax",
+                      "awayTeam":  "AZ Alkmaar",
+                      "odds":  {
+                                   "home":  1.85,
+                                   "draw":  3.7,
+                                   "away":  4.4
+                               }
+                  },
+                  {
+                      "id":  "championship-derby-norwich-2026-11-27",
+                      "competition":  "Championship",
+                      "kickoffDate":  "2026-11-27",
+                      "homeTeam":  "Derby County",
+                      "awayTeam":  "Norwich",
+                      "odds":  {
+                                   "home":  2.45,
+                                   "draw":  3.25,
+                                   "away":  2.85
+                               }
+                  },
+                  {
+                      "id":  "premier-league-chelsea-liverpool-2026-12-01",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-12-01",
+                      "homeTeam":  "Chelsea",
+                      "awayTeam":  "Liverpool",
+                      "odds":  {
+                                   "home":  2.75,
+                                   "draw":  3.3,
+                                   "away":  2.45
+                               }
+                  },
+                  {
+                      "id":  "premier-league-manutd-newcastle-2026-12-04",
+                      "competition":  "Premier League",
+                      "kickoffDate":  "2026-12-04",
+                      "homeTeam":  "Manchester Utd",
+                      "awayTeam":  "Newcastle",
+                      "odds":  {
+                                   "home":  2.05,
+                                   "draw":  3.45,
+                                   "away":  3.7
+                               }
+                  },
+                  {
+                      "id":  "la-liga-barcelona-atletico-madrid-2026-12-07",
+                      "competition":  "La Liga",
+                      "kickoffDate":  "2026-12-07",
+                      "homeTeam":  "Barcelona",
+                      "awayTeam":  "Atletico Madrid",
+                      "odds":  {
+                                   "home":  1.8,
+                                   "draw":  3.7,
+                                   "away":  4.6
+                               }
+                  },
+                  {
+                      "id":  "serie-a-ac-milan-inter-2026-12-10",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-12-10",
+                      "homeTeam":  "AC Milan",
+                      "awayTeam":  "Inter",
+                      "odds":  {
+                                   "home":  2.65,
+                                   "draw":  3.2,
+                                   "away":  2.55
+                               }
+                  },
+                  {
+                      "id":  "serie-a-napoli-lazio-2026-12-12",
+                      "competition":  "Serie A",
+                      "kickoffDate":  "2026-12-12",
+                      "homeTeam":  "Napoli",
+                      "awayTeam":  "Lazio",
+                      "odds":  {
+                                   "home":  1.95,
+                                   "draw":  3.35,
+                                   "away":  4.05
+                               }
+                  },
+                  {
+                      "id":  "bundesliga-bayern-stuttgart-2026-12-15",
+                      "competition":  "Bundesliga",
+                      "kickoffDate":  "2026-12-15",
+                      "homeTeam":  "Bayern Munich",
+                      "awayTeam":  "Stuttgart",
+                      "odds":  {
+                                   "home":  1.45,
+                                   "draw":  4.6,
+                                   "away":  7.2
+                               }
+                  },
+                  {
+                      "id":  "ligue-1-psg-monaco-2026-12-18",
+                      "competition":  "Ligue 1",
+                      "kickoffDate":  "2026-12-18",
+                      "homeTeam":  "PSG",
+                      "awayTeam":  "Monaco",
+                      "odds":  {
+                                   "home":  1.65,
+                                   "draw":  4,
+                                   "away":  5.2
+                               }
+                  },
+                  {
+                      "id":  "primeira-liga-benfica-porto-2026-12-22",
+                      "competition":  "Primeira Liga",
+                      "kickoffDate":  "2026-12-22",
+                      "homeTeam":  "Benfica",
+                      "awayTeam":  "Porto",
+                      "odds":  {
+                                   "home":  2.35,
+                                   "draw":  3.2,
+                                   "away":  2.95
+                               }
+                  },
+                  {
+                      "id":  "mls-lafc-inter-miami-2026-12-28",
+                      "competition":  "MLS",
+                      "kickoffDate":  "2026-12-28",
+                      "homeTeam":  "LAFC",
+                      "awayTeam":  "Inter Miami",
+                      "odds":  {
+                                   "home":  2.2,
+                                   "draw":  3.45,
+                                   "away":  3.05
+                               }
+                  }
+              ],
+    "Count":  103
+}
